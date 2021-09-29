@@ -1,9 +1,6 @@
 name: "Create TFC Workspace"
-description: "Creates or deletes a Terraform Cloud workspace"
+description: "Creates a Terraform Cloud workspace"
 inputs:
-  subcommand:
-    description: "Which subcommand to invoke: `create` or `delete`"
-    required: true
   tfcToken:
     description: A Terraform Cloud API token with access to manage workspaces
     required: true
@@ -15,10 +12,10 @@ inputs:
     required: true
 runs:
   using: "docker"
-  image: "docker://frostedcarbon/manage-tfc-workspace-image:latest"
+  image: "docker://frostedcarbon/tfc-cli:v0.6.0"
   args:
-    - workspace
-    - ${{ inputs.subcommand }}
+    - workspaces
+    - create
     - -token
     - ${{ inputs.tfcToken }}
     - -org

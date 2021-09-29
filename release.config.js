@@ -13,6 +13,10 @@ module.exports = {
       name: "v1",
       range: "1.x",
     },
-    "v2",
+    {
+      name: "v2",
+      range: "2.x",
+    },
+    "v3",
   ],
 };
