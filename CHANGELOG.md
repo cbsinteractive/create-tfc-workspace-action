@@ -1,3 +1,17 @@
+# [3.0.0](https://github.com/cbsinteractive/create-tfc-workspace/compare/2.0.0...3.0.0) (2021-09-29)
+
+
+### Features
+
+* Use tfc-cli instead of manage-tfc-workspace-image ([3b8f6ae](https://github.com/cbsinteractive/create-tfc-workspace/commit/3b8f6aeca3cbe75dde4a27584faedd6755945a46))
+
+
+### BREAKING CHANGES
+
+* Removes support for delete functionality
+
+Using cbsinteractive/delete-tfc-workspace-action is preferred
+
 # [2.0.0](https://github.com/cbsinteractive/create-tfc-workspace/compare/1.0.0...2.0.0) (2021-07-20)
 
 
