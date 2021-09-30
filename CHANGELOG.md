@@ -1,3 +1,11 @@
+# [3.1.0](https://github.com/cbsinteractive/create-tfc-workspace-action/compare/3.0.0...3.1.0) (2021-09-30)
+
+
+### Features
+
+* Prep action for publishing ([f645630](https://github.com/cbsinteractive/create-tfc-workspace-action/commit/f645630d947b0b28daa4975a416c440227768655))
+* Update to tfc-cli v.0.7.1 ([2be2300](https://github.com/cbsinteractive/create-tfc-workspace-action/commit/2be2300147e271384c7f466bc10980c36f27187d))
+
 # [3.0.0](https://github.com/cbsinteractive/create-tfc-workspace/compare/2.0.0...3.0.0) (2021-09-29)
 
 
