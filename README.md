@@ -21,7 +21,7 @@ The action generates no outputs.
 Create a workspace:
 
 ```yaml
-- uses: cbsinteractive/create-tfc-workspace@v3
+- uses: cbsinteractive/create-tfc-workspace-action@v3
   with:
     tfcToken: ${{ secrets.tfc_token }}
     orgName: ${{ secrets.tfc_organization }}
