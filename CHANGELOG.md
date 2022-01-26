@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/cbsinteractive/create-tfc-workspace-action/compare/3.1.0...3.2.0) (2022-01-26)
+
+
+### Features
+
+* Use tfc-cli v1.0.0 ([4e26f89](https://github.com/cbsinteractive/create-tfc-workspace-action/commit/4e26f891b7279ddc27556585fce88d9457164bfc))
+
 # [3.1.0](https://github.com/cbsinteractive/create-tfc-workspace-action/compare/3.0.0...3.1.0) (2021-09-30)
 
 
