@@ -1,3 +1,10 @@
+# [3.3.0](https://github.com/cbsinteractive/create-tfc-workspace-action/compare/3.2.0...3.3.0) (2022-01-27)
+
+
+### Features
+
+* Rename action ([10c6276](https://github.com/cbsinteractive/create-tfc-workspace-action/commit/10c62769832ae354d78beea52468331fbea350de))
+
 # [3.2.0](https://github.com/cbsinteractive/create-tfc-workspace-action/compare/3.1.0...3.2.0) (2022-01-26)
 
 
