@@ -1,4 +1,4 @@
-name: Create TFC Workspace
+name: Create Terraform Cloud Workspace
 description: Creates a Terraform Cloud workspace
 inputs:
   tfcToken:
