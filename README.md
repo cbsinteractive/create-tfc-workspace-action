@@ -6,11 +6,12 @@ This action is used to create Terraform Cloud workspaces.
 
 The action expects the following inputs:
 
-| Variable        | Required | Description                                                                               |
-| --------------- | -------- | ----------------------------------------------------------------------------------------- |
-| `tfcToken`      | Yes      | A Terraform Cloud API token with access to manage the workspace                           |
-| `orgName`       | Yes      | The name of the Terraform Cloud organization in which the new workspace should be created |
-| `workspaceName` | Yes      | The name of the Terraform Cloud workspace                                                 |
+| Variable           | Required | Description                                                                                                                                                 |
+| ------------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `tfcToken`         | Yes      | A Terraform Cloud API token with access to manage the workspace                                                                                             |
+| `orgName`          | Yes      | The name of the Terraform Cloud organization in which the new workspace should be created                                                                   |
+| `workspaceName`    | Yes      | The name of the Terraform Cloud workspace                                                                                                                   |
+| `terraformVersion` | No       | The version of Terraform that the workspace should be configured to run. If unspecified, Terraform Cloud automatically assigns the latest released version. |
 
 ## Outputs
 
